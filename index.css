@@ -1,0 +1,52 @@
+/* Complete the CSS styling according to the provided design */
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: url("https://imageio.forbes.com/specials-images/dam/imageserve/1051931270/960x0.jpg?format=jpg&width=960");
+    background-repeat:space;
+    background-size:cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:italic;
+    color: white;
+    
+    
+}
+
+h1 {
+    color: goldenrod;
+}
+#message-el {
+    
+}
+.container
+{
+    background-image: url("./images/table.png");
+    width: 40%;
+    height: 280px;
+    text-align: center;
+    border: 5px solid goldenrod;
+    border-radius: 25%;
+}
+
+.subject
+{
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    
+    
+}
