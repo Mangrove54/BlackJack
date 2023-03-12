@@ -44,7 +44,7 @@ function renderGame() {
   playerEl.textContent = playerName + ": $" + playerMoney;
 }
 
-function drawCard() {
+function newCard() {
   if (isAlive && !hasBlackJack) {
     let card = getRandomCard();
     sum += card;
